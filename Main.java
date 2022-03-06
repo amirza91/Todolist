@@ -7,6 +7,8 @@ public class Main {
         Todoitems list = new Todoitems();
 
         Scanner scanner = new Scanner(System.in);
+        // Made a main menu where user picks which functionality he/she wants
+        // to use. It goes through a while loop until user wants to quit.
 
         System.out.println("Add item enter 1\nDelete item enter 2\nlist all reminders enter 3\nEnter 4 to exit");
         System.out.println("Enter choice: ");
