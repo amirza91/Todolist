@@ -10,6 +10,7 @@ public class Todoitems {
     }
     public void add(String add){
         array.add(add);
+        System.out.println("ADDED");
     } // created an add functionality to add items to the array
     public void delete (int delete){  // created a delete functionality to delete items in the array
 
