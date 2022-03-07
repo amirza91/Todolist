@@ -18,6 +18,7 @@ public class Todoitems {
             }
             else{
                 array.remove(delete - 1);
+                System.out.println("deleted");
             }
     }
 
